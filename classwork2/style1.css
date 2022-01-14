@@ -1,0 +1,19 @@
+.grey {
+    background: grey;
+    width: 500px;
+    height: 250px;
+    box-shadow: burlywood -30px -30px 60px 30px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+p{
+    font-family: Arial;
+    font-size: large;
+    border-left: red solid 5px;
+    margin-left: 5px;
+    margin-top: 30px;
+    padding-left: 20px;
+
+}
