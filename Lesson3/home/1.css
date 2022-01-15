@@ -1,0 +1,31 @@
+#container{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#container > div{
+    background: grey;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#a{
+    width: 1000px;
+    height: 300px;
+    padding-top: 145px;
+
+}
+
+#b{
+    width: 700px;
+    height: 460px;
+    padding-top: 228px;
+}
+
+#c{
+    width: 260px;
+    height: 460px;
+    padding-top: 228px;
+
+}
