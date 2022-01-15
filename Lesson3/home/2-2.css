@@ -22,19 +22,13 @@
     text-align: center;
     box-sizing: border-box;
     padding-top: 75px;
+
 }
 #big_bigger_huge{
     width: 500px;
     display: flex;
+    justify-content: space-between ;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
-}
-
-#big{
-    margin: 5px 5px 5px 0;
-}
-#bigger{
-    margin: 5px 5px 5px 0;
-}
-#huge{
-    margin: 5px 0 5px 0;
 }
