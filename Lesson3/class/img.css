@@ -1,0 +1,43 @@
+h1{
+    width: 1000px;
+    text-align: center;
+    color: grey;
+}
+h3{
+    color: orange;
+
+}
+button{
+    background: deepskyblue;
+    height: 40px;
+    width: 100px;
+    border: deepskyblue;
+    display: block;
+    margin: auto;
+    color: white;
+
+}
+#container{
+    width: 1000px;
+    color: grey;
+    text-align: center;
+    display: flex;
+}
+
+.menu{
+    width: 250px;
+    height: 350px;
+    border-right: darkgrey solid 1px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+i{
+    font-size: 50px;
+}
+p{
+    display: block;
+    height: 150px;
+}

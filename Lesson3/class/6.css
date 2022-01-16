@@ -1,0 +1,35 @@
+.ha{
+    background: dodgerblue;
+    width: 205px;
+    height: 400px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-top: 190px;
+}
+.k{
+    background: dodgerblue;
+    width: 420px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-top: 80px;
+}
+.sbs{
+    background: darkslateblue;
+    width: 132px;
+    height: 180px;
+    box-sizing: border-box;
+    padding-top: 60px;
+
+}
+.ha,.k,.sbs{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+#container{
+    width: 420px;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

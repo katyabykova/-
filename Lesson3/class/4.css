@@ -1,0 +1,50 @@
+#container{
+    width: 1000px;
+    text-align: center;
+    font-size: xxx-large;
+
+}
+
+#a{
+    width: 1000px;
+    height: 250px;
+    box-sizing: border-box;
+    background: grey;
+    margin-bottom: 5px;
+    padding-top: 100px;
+
+}
+
+.bcdefg{
+    width: 245px;
+    height: 245px;
+    box-sizing: border-box;
+    background: grey;
+    margin-top: 5px;
+    padding-top: 100px;
+
+}
+#h{
+    width: 245px;
+    height: 495px;
+    background: grey;
+    margin-top: 5px;
+    margin-left: 6px;
+    padding-top: 220px;
+    box-sizing: border-box;
+
+}
+
+#boxes{
+    width: 749px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#bcdefgh{
+    width:1000px;
+    display: flex;
+    flex-wrap: wrap;
+
+}

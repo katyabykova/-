@@ -1,0 +1,53 @@
+#container{
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}
+.blok{
+    width: 330px;
+    text-align: center;
+
+}
+
+.sharik{
+    width: 80px;
+    height: 80px;
+    border: grey solid 1px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 120px;
+    background: white;
+
+}
+.kvadrat{
+    border: grey solid 1px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 50px;
+    box-sizing: border-box;
+
+}
+
+i{
+    color: orange;
+    font-size: 30px;
+    padding-top: 25px;
+
+}
+
+p{
+    color: grey;
+    display: block;
+    height: 110px;
+}
+
+button{
+    background: white;
+    border-radius: 0;
+    width: 150px;
+    height: 40px;
+    border: grey solid 1px;
+}

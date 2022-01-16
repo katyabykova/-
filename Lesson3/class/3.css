@@ -1,0 +1,36 @@
+#a, #b, .cde,#f{
+    background: grey;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 4px;
+}
+
+#container{
+    width: 1000px;
+
+}
+#a{
+    height: 200px;
+}
+#b {
+    width: 700px;
+    height: 200px;
+}
+.cde{
+    width: 225px;
+    height: 200px;
+}
+#f{
+    width: 300px;
+    height: 410px;
+}
+
+#bcde{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bcdef{
+    display: flex;
+}
