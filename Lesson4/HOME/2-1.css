@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 500px;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+.container2{
+    column-gap: 10px;
+}
+.posts{
+    width: 330px;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+.back_green{
+    background: mediumspringgreen;
+    width: 500px;
+    height: 50px;
+}
+.back_blue{
+    background: deepskyblue;
+    width: 330px;
+    height: 97px;
+}
+.back_rose {
+    background: mistyrose;
+    width: 160px;
+    height: 200px;
+}

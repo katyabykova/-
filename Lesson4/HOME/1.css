@@ -1,0 +1,38 @@
+.flex{
+    display: flex;
+}
+.container{
+    flex-wrap: wrap;
+    column-gap: 5px;
+    border: brown solid 1px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.backgr_grey{
+    justify-content: center;
+    align-items: center;
+    background: grey;
+}
+
+.w999{
+    width: 999px;
+}
+.w714{
+    width: 714px;
+}
+.w280{
+    width: 280px;
+}
+.h765{
+    height: 765px;
+}
+.h300{
+    height: 300px;
+}
+.h460{
+    height: 460px;
+}
+
+
+

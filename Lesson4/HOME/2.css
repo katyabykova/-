@@ -1,0 +1,39 @@
+.w1000{
+    width: 1000px;
+}
+.h500{
+    height: 500px;
+}
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    font-size: 25px
+}
+.header{
+    height: 50px;
+    background: dodgerblue;
+}
+.nav{
+    height: 30px;
+    background: darkslateblue;
+}
+.main{
+    width: 700px;
+    background: cornflowerblue;
+}
+.aside{
+    width: 300px;
+    background: deepskyblue;
+}
+.footer{
+    height: 40px;
+    background: lightskyblue;
+}
