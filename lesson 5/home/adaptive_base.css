@@ -1,0 +1,48 @@
+.container{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    width: 700px;
+    height: 200px;
+    background: #cdd8e0;
+}
+.b{
+    width: 400px;
+    height: 300px;
+    background: #cdd8e0;
+}
+.c{
+    width: 295px;
+    height: 300px;
+    background: #cdd8e0;
+}
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .a{
+        width: 295px;
+        height: 100px;
+    }
+    .b{
+        width: 295px;
+        height: 400px;
+    }
+    .c{
+        width: 295px;
+        height: 100px;
+    }
+    .container{
+        width: 295px;
+        height: 500px;
+    }
+}
+

@@ -1,0 +1,53 @@
+.flex_wr{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.box{
+    width: 610px;
+}
+.container{
+    width: 815px;
+}
+.a{
+    width: 815px;
+}
+.w200{
+    width: 200px;
+}
+.f{
+    height: 405px;
+}
+.h200{
+    height: 200px;
+}
+.a, .b-g, .f{
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px){
+    .container{
+        width: 400px;
+    }
+    .a{
+        width: 400px;
+        height: 100px;
+    }
+    .b-g{
+        width: 100px;
+        height: 100px;
+    }
+    .f{
+        width: 400px;
+        height: 200px;
+    }
+    .box{
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+
+}
