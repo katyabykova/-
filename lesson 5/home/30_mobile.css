@@ -1,27 +1,36 @@
 .container {
     width: 810px;
 }
-
+.box3-9{
+    height: 810px;
+    width: 810px;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
 .flex {
     display: flex;
+}
+.gap{
     column-gap: 5px;
     row-gap: 5px;
 }
-
+.w810{
+    width: 810px;
+}
 .w800 {
     width: 800px;
 }
-
+.w605{
+    width: 605px;
+}
 .w600 {
     width: 600px;
 }
-
 .w400 {
     width: 400px;
 }
-
-.w195 {
-    width: 195px;
+.w200 {
+    width: 200px;
 }
 .h605 {
     height: 605px;
@@ -51,34 +60,30 @@
     color: mistyrose;
     font-size: xxx-large;
 }
-
 .wrap {
     flex-wrap: wrap;
 }
-
 @media screen and (min-width: 0px) and (max-width: 500px) {
     .container {
         width: 405px;
-        height: 1430px;
         display: flex;
         flex-wrap: wrap;
         column-gap: 5px;
         row-gap: 5px;
     }
-
-    .box389 {
+    .box3-9{
         width: 405px;
         height: 1120px;
         flex-direction: column;
-        justify-content: space-between;
     }
-
-    .box4-7 {
-        position: relative;
-        z-index: 1;
-        bottom: 1017px;
+    .box4567{
+        width: 405px;
+        order:2
     }
-
+    .box8-9{
+        width: 405px;
+        order: 3;
+    }
     .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
         background: grey;
         display: flex;
@@ -86,56 +91,41 @@
         align-items: center;
         color: mistyrose;
     }
-
     .box1 {
         width: 100px;
         height: 100px;
     }
-
     .box2 {
         width: 300px;
         height: 100px;
     }
-
     .box3 {
         width: 405px;
         height: 100px;
+        order:1
     }
-
     .box4 {
         width: 300px;
         height: 200px;
     }
-
     .box5 {
         width: 100px;
         height: 200px;
     }
-
     .box6 {
         width: 405px;
         height: 500px;
     }
-
     .box7 {
         width: 405px;
         height: 200px;
     }
-
-    .box8 {
+    .box8, .box9 {
         width: 200px;
         height: 100px;
     }
-
-    .box9 {
-        width: 200px;
-        height: 100px;
-    }
-
     .box10 {
         width: 405px;
         height: 200px;
-        position: relative;
-        bottom: 910px;
     }
 }
