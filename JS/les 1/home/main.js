@@ -72,7 +72,7 @@ let middleName = 'Владимировна';
 let lastName = 'Быкова';
 let person = firstName+' '+middleName+' '+lastName;
 
-let name = prompt ("Ваше имя?", "");
+let name = prompt ("Ваше имя?");
 alert(name);
 let middle = prompt("Отчество?");
 alert(middle);
