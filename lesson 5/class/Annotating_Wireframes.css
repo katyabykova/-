@@ -1,0 +1,66 @@
+.w800{
+    width: 800px;
+}
+.w700{
+    width: 700px;
+}
+.w400{
+    width: 400px;
+}
+.w300{
+    width: 300px;
+}
+.w100{
+    width: 100px;
+}
+.w80{
+    width: 80px;
+}
+.h900{
+    height: 900px;
+}
+.h800{
+    height: 800px;
+}
+.h400{
+    height: 400px;
+}
+.h300{
+    height: 300px;
+}
+.h220{
+    height: 220px;
+}
+.h200{
+    height: 200px;
+}
+.h100{
+    height: 100px;
+}
+.h50{
+    height: 50px;
+}
+.flex_wr{
+    display: flex;
+    flex-wrap:wrap;
+}
+.box_siz{
+    box-sizing: border-box;
+}
+.bg{
+    background: mistyrose;
+    border: #122d3f solid 5px;
+    display: flex;
+}
+.l_box2{
+    justify-content: center;
+    align-items: center;
+}
+.br {
+    border: #122d3f solid 5px;
+}
+.bg_grey{
+    background: grey;
+}
+
+}
