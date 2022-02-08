@@ -1,5 +1,5 @@
 //*За допомогою циклу вивести всю інформацію про пости використовуючи шаблон Template 1.1.
-		//	* ЗА допомоги стилів побудувати структуру "сітки" по 5 об'єктів в лінію
+//	* ЗА допомоги стилів побудувати структуру "сітки" по 5 об'єктів в лінію
 
 
 let arr = [
@@ -605,12 +605,16 @@ let arr = [
     }
 ];
 
+document.write(`<div class="wrapper">`)
 
-
-for(a=0; a<arr.length; a++){
-    document.write(`
-    <div style="display: flex"><div style="width: 200px; height: 250px; background: aquamarine">
-    <h3>${arr[a].id} - ${arr[a].title}</h3>
-    <p>${arr[a].body}</p></div></div>`)
+for (a = 0; a < arr.length; a++) {
+    document.write(
+        `<div class="card">
+            <h3>${arr[a].id} - ${arr[a].title}</h3>
+            <p>${arr[a].body}</p>
+        </div>`
+    )
 }
+document.write(`</div>`)
+
 

@@ -1,1 +1,13 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
 
+}
+
+.card {
+    width: 18%;
+    height: 250px;
+    background: aquamarine
+}
