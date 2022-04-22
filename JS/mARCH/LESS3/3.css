@@ -1,0 +1,19 @@
+img{
+    width: 250px;
+    height: 250px;
+}
+.product-card{
+    border: #3bc6ea 1px solid;
+    border-radius: 10px;
+    width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+.product-title{
+    color: #3bc6ea;
+    border: #246abb 1px solid;
+    border-radius: 5px;
+    padding: 2px;
+}
