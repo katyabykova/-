@@ -1,0 +1,17 @@
+.user-block{
+    background: mistyrose;
+    width: 49vw;
+    height: 300px;
+    border: #3bc6ea 2px solid;
+    border-radius: 5px;
+    padding: 1vw;
+    box-sizing: border-box;
+
+}
+.users-box{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1vw;
+}

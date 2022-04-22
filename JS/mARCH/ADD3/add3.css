@@ -1,0 +1,19 @@
+.post-card{
+    background: mistyrose;
+    width: 19vw;
+    height: 250px;
+    border: #3bc6ea 2px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1vw;
+}
