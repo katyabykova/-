@@ -97,16 +97,17 @@ document.body.append(input1,input2,input3,button)
 
 
 button.onclick = function (){
+    let table = document.createElement('table');
+    document.body.append(table);
+
     for(i=0;i<input1.value;i++){
-            let box = document.createElement('div');
-            box.style.display = 'flex';
-            document.body.append(box);
+        let tr = document.createElement('tr');
+            table.append(tr);
             for(x=0;x<input2.value;x++){
-                let littleBox = document.createElement('div');
-                littleBox.innerText = `${input3.value}`;
-                littleBox.style.border = '2px solid red';
-                littleBox.style.margin = '2px'
-                box.append(littleBox)
+                let td = document.createElement('td');
+                td.innerText = `${input3.value}`;
+                td.style.border = '2px solid red';
+                tr.append(td);
             }
         }
 
