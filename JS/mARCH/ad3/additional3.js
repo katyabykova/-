@@ -123,6 +123,23 @@ let usersWithId = [
 //             // TO BE CONTINUED .....
 //         ]
 
+let newArrCity = [];
+for(const el of usersWithId){
+    for(const el2 of citiesWithId){
+    if(el.id===el2.user_id){
+        el.adress = el2
+    }
+    }
+}
+newArrCity = usersWithId
+console.log(newArrCity)
+
+
+// let newArrCity = citiesWithId.sort((a,b) =>(a.user_id-b.user_id))
+// for(i=0;i<usersWithId.length&&i<citiesWithId.length;i++) {
+//         usersWithId[i].address = newArrCity[i]
+// }
+// console.log(usersWithId)
 //
 //
 //         - Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.

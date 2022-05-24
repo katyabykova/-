@@ -16,7 +16,6 @@ console.log(n3.replace('__',' '));
 //     - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
 
 let foo = (length) =>{
-
     let arr = [];
     for(i=0;i<length;i++){
     arr.push(Math.floor(Math.random()*100));
