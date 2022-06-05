@@ -1,0 +1,26 @@
+.post{
+    width: 18vw;
+}
+.wrapper{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.post:hover {
+    background: #d8e4ef;
+    transition: 3s;
+    transform: rotate(10grad);
+}
+.coments{
+    width: 16vw;
+    border: 1px solid green;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.coments:hover {
+    background: #d8e4ef;
+    transition: .3s;
+    transform: rotateY(10grad)
+}

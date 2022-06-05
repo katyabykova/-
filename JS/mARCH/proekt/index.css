@@ -1,0 +1,18 @@
+.box{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.little_box{
+    width: 35vw;
+    border: 2px solid mistyrose;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.little_box:hover {
+    background: rgba(255, 192, 203, 0.25);
+    transition: 1s;
+}
+

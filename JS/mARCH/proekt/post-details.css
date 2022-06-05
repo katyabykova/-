@@ -1,0 +1,30 @@
+.box{
+    width: 70vw;
+    border: 1px solid pink;
+    text-align: center;
+    margin: auto;
+}
+.box:hover {
+    background: pink;
+    transition: 1s;
+}
+.box1{
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+}
+.smallBox{
+    width: 16vw;
+    background: #d8e4ef;
+    border: 1px solid pink;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.smallBox:hover {
+    background: pink;
+    transition: 1s;
+}

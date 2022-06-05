@@ -1,0 +1,50 @@
+.box{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid darkgrey;
+    padding: 10px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 20px;
+}
+p{
+    margin: 2px;
+    padding: 2px;
+}
+.post{
+    width: 90vw;
+    height: 50px;
+    margin-top: 20px;
+}
+body{
+    text-align: center;
+}
+.boxTitle{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.smallBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 15vw;
+    height: 190px;
+    border: 1px solid pink;
+    margin-top: 10px;
+    align-items: flex-end;
+    overflow: scroll;
+    justify-content: center;
+}
+.smallBox:hover {
+    background: rgba(255, 192, 203, 0.22);
+    transition: 1s;
+}
+.posts{
+    height: 40px;
+    width: 15vw;
+}
