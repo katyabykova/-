@@ -43,28 +43,31 @@ for (const el in info) {
 let button = document.createElement('button');
 button.className = "post";
 button.innerText = 'post of current user';
-document.body.append(button)
+document.body.append(button);
+
 
 button.onclick = () => {
+
     fetch(`https://jsonplaceholder.typicode.com/users/${info.id}/posts`)
         .then(response => response.json())
         .then(value => {
-            let boxTitle = document.createElement('div');
-            boxTitle.className = 'boxTitle';
-            document.body.append(boxTitle);
-            for (const el of value) {
-                let smallBox = document.createElement('div');
-                smallBox.className = 'smallBox';
-                boxTitle.append(smallBox);
-                smallBox.innerHTML = `
+
+                let boxTitle = document.createElement('div');
+                boxTitle.className = 'boxTitle';
+                document.body.append(boxTitle);
+                for (const el of value) {
+                    let smallBox = document.createElement('div');
+                    smallBox.className = 'smallBox';
+                    boxTitle.append(smallBox);
+                    smallBox.innerHTML = `
             <p> TITLE: ${el.title}</p>
             <button class="posts"><a href="post-details.html">MORE</a></button>`;
-                smallBox.onclick = () => {
-                    localStorage.setItem('anotherkey', JSON.stringify(el))
+                    smallBox.onclick = () => {
+                        localStorage.setItem('anotherkey', JSON.stringify(el))
+                    }
+                    button.disabled = true;
                 }
-
             }
-        })
-
+        )
 }
 

@@ -21,11 +21,11 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${info.id}/comments`)
         let box1 = document.createElement('div');
         box1.className = 'box1';
         document.body.append(box1);
-        for (i = 1; i < value.length; i++) {
+        for (const el of value) {
             let smallBox = document.createElement('div');
             smallBox.className = 'smallBox';
             box1.append(smallBox);
             smallBox.innerHTML = `
-                <p> COMMENT${i}:<p>${value[i].body}<p></p>`
+                COMMENT:<p>${el.body}</p>`;
         }
     })
