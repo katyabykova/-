@@ -30,6 +30,9 @@ for (const el in info) {
                 data3.innerText = `${elem.toUpperCase()} : ${info[el][elem]};`;
                 box.append(data3);
             } else {
+                let data4 = document.createElement('p');
+                data4.innerText = `${elem.toUpperCase()}:`;
+                box.append(data4);
                 for (const item in info[el][elem]) {
                     let data4 = document.createElement('p');
                     data4.innerText = `${item.toUpperCase()} : ${info[el][elem][item]};`
