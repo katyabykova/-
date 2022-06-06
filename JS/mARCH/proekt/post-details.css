@@ -18,6 +18,7 @@
 }
 .smallBox{
     width: 16vw;
+    height: 180px;
     background: #d8e4ef;
     border: 1px solid pink;
     padding: 10px;
